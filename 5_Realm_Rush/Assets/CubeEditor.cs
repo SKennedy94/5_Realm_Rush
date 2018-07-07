@@ -22,7 +22,9 @@ public class CubeEditor : MonoBehaviour {
         snapPos.z = Mathf.RoundToInt(transform.position.z / gridSize) * gridSize;
 
         transform.position = new Vector3(snapPos.x, 0f, snapPos.z);
+        string labelText = snapPos.x / gridSize + ", " + snapPos.z / gridSize;
+        textMesh.text = labelText;
 
-        textMesh.text = snapPos.x / gridSize + ", " + snapPos.z / gridSize;
+        gameObject.name = "cube at: " + labelText;
     }
 }

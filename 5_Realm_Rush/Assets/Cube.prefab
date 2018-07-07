@@ -55,6 +55,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4901565032026486}
+  - component: {fileID: 114896546458440328}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -207,7 +208,7 @@ Transform:
   m_GameObject: {fileID: 1203419680196660}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 10, y: 10, z: 10}
   m_Children:
   - {fileID: 4174853459364000}
   - {fileID: 4659444875731318}
@@ -281,7 +282,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 858aa6542997d964fa1e505c7114d599, type: 2}
+  - {fileID: 2100000, guid: a238dbcf179aba7449b02df4dbe91c5f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -351,7 +352,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: a238dbcf179aba7449b02df4dbe91c5f, type: 2}
+  - {fileID: 2100000, guid: 858aa6542997d964fa1e505c7114d599, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -567,3 +568,14 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &114896546458440328
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1203419680196660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a41cad22311c7aa418f72e164517eca2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
